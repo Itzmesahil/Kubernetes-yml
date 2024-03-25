@@ -1,3 +1,12 @@
+Steps to Create MySQL Deployment
+***) apply storage {if issued to facing login in mysql container}
+1) apply pv
+2) apply pvc
+3) apply secret
+4) apply deployment
+5) apply svc
+  
+  
   For minikube delete storage
   kubectl get storageclass
   kubectl delete storageclass <storage_class_name>
